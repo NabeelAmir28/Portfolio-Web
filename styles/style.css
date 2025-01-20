@@ -43,3 +43,51 @@ body {
 .nav-link:hover {
     text-decoration: underline;
 }
+
+#main-content {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.service-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.service-text {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
